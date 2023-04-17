@@ -6,6 +6,7 @@ from .chains import TaskCreationChain, TaskPrioritizationChain, ExecutionChain
 from .tasks import (
     get_next_task,
 )
+from langchain.llms import BaseLLM  # Add the missing import
 
 
 class ChainGPT(BaseModel):
