@@ -1,0 +1,37 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Dependencies
+venv/
+env/
+.pipenv/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+
+# Miscellaneous
+.DS_Store
+*.pyc
+
+# IDE
+.vscode/
